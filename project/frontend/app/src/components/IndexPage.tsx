@@ -17,7 +17,7 @@ export const IndexPage: FC = () => {
       <Box w="400">
         <Stack spacing={6}>
           <Heading as="h1" size="lg" textAlign="center">
-            TodoApp
+            TodoApp_sasaryo
           </Heading>
           <Box w={400}>
             <Stack>
@@ -29,7 +29,9 @@ export const IndexPage: FC = () => {
             </Stack>
           </Box>
           {todos.map((todo) => (
-            <Todo key={todo.id} id={todo.id} item={todo.summary} getTodos={getTodos} />
+            // sasaryo dev
+            // last_idを追加
+            <Todo key={todo.id} id={todo.id} item={todo.summary} getTodos={getTodos} last_id={todos.length} />
           ))}
         </Stack>
       </Box>
