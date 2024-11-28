@@ -4,7 +4,6 @@ env:
   variables:
     AWS_REGION: "ap-northeast-1"
     REACT_APP_API_SERVICE_URL: "http://m8i-51.com"
-    MY_USER_NAME: "sasaryo"
 
 phases:
   pre_build:
